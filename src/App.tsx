@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import TrendingNow from './components/TrendingNow';
+import Categories from './components/Categories';
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div className="max-w-screen-2xl w-[95%] mx-auto bg-white">
            <Navbar />
             <TrendingNow />
+            <Categories />
             <Footer />
           </div>
       </div>
