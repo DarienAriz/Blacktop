@@ -7,12 +7,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies and package manager files
+node_modules/
+.pnpm-store
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build output and caches
 dist
 dist-ssr
-*.local
+build/Release
+.cache
+.parcel-cache
+.vite/
+*.tsbuildinfo
 
-# Editor directories and files
+# Environment files
+*.local
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+coverage
+*.lcov
+.nyc_output
+
+# Editor and operating-system files
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +48,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Other generated files
+.eslintcache
+.stylelintcache
+*.tgz
+.yarn-integrity
+.turbo
