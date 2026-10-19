@@ -8,7 +8,7 @@ function Categories(){
     return(
 
         <div>
-            <h2 className="font-bold text-2xl px-4">Categorías</h2>
+            <h2 className="font-bold text-2xl px-4 mb-4">Categorías</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 px-0 md:px-4">
                 {categories.map((category) => (
                     <div key={category.id} className="bg-gray-100 p-4 rounded-lg relative"> {/*Div map*/}
