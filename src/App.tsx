@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import TrendingNow from './components/TrendingNow';
 import Categories from './components/Categories';
 import Hero from './components/Hero';
+import NewDrop from './components/NewDrop';
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Hero />
             <TrendingNow />
             <Categories />
+            <NewDrop />
             <Footer />
           </div>
       </div>

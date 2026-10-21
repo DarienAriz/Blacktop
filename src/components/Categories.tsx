@@ -14,8 +14,8 @@ function Categories(){
                     <div key={category.id} className="bg-gray-100 p-4 rounded-lg relative"> {/*Div map*/}
                              <img src={category.imagen} alt={category.genero} className="w-full h-64 object-cover rounded-lg" />
                             <div className="absolute bottom-5 left-4">{/*Div Todo*/}
-                                <h3 className="font-bold bottom-4 left-4 text-white mb-4">{category.genero}</h3>
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl">
+                                <h3 className="font-bold bottom-4 left-4 text-white mb-4 px-4">{category.genero}</h3>
+                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl ml-4">
                                 {category.boton1}
                                 </button> 
                         </div> 

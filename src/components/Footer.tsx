@@ -4,7 +4,7 @@ import {FaFacebook, FaInstagram, FaTwitter, FaCcVisa,FaPaypal,FaCcMastercard } f
 function Footer(){
     return(
 
-        <footer className="flex flex-col md:flex-row justify-between items-start md:items-center px-6 py-4 gap-6">
+        <footer className="flex flex-col md:flex-row justify-between items-start md:items-center px-6 py-4 gap-6 mt-7 bg-amber-100">
             <section>
                 <h3>Suscribete a Blacktop</h3>
                 <div className="flex gap-2">

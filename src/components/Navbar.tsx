@@ -15,7 +15,7 @@ function NavBar() {
 
 
     {/*Navegacion Links de enmedio  */}
-     <ul className="order-3 md:order-2 w-full md:w-auto flex gap-6">
+     <ul className="order-3 md:order-2 w-full md:w-auto flex gap-4">
         <li><a href="#">Hombres</a></li>
         <li><a href="#">Mujeres</a></li>
         <li><a href="#">Categorias</a></li>
